@@ -1,0 +1,33 @@
+html(lang="en")
+head
+  meta(charset="UTF-8")
+  meta(name="viewport", content="width=device-width, initial-scale=1.0")
+  title Ecommerce 
+  link(rel="stylesheet", href="estilos.css")
+  link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous")
+body
+
+nav.navbar.navbar-inverse.navbar-fixed-top
+  .container
+    .navbar-header.main-header
+      a.navbar-brand(href='/') Pagina principal de productos
+      .navbar-right.cart-status
+        p
+          i.glyphicon.glyphicon-shopping-cart
+          a(href="/cart") (#{ numberOfProducts ? numberOfProducts : 0 })Cart
+
+
+ul.list-products.list-unstyled
+  each n in Product
+    div 
+    li
+      p
+        img(src="https://loremflickr.com/640/480", width="80%" )
+        span #{n.name}
+        span.price $#{n.price}
+        .btn.btn-primary
+        button() Add To Cart
+         
+
+
+

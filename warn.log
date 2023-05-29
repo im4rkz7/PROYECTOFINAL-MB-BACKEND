@@ -1,0 +1,36 @@
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":"server.js error login"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":"server.js error login"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":" Ruta POST/ error al registrar usuario"}
+{"level":"error","message":"server.js error login"}
+{"level":"error","message":"server.js error login"}
+{"level":"error","message":"DB Connection error connect ECONNREFUSED 127.0.0.1:27017","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Unknown"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (/home/cmcarlos/Escritorio/proyecto_final/node_modules/mongoose/lib/connection.js:824:32)\n    at /home/cmcarlos/Escritorio/proyecto_final/node_modules/mongoose/lib/index.js:413:10\n    at promiseOrCallback (/home/cmcarlos/Escritorio/proyecto_final/node_modules/mongoose/lib/helpers/promiseOrCallback.js:11:14)\n    at Mongoose._promiseOrCallback (/home/cmcarlos/Escritorio/proyecto_final/node_modules/mongoose/lib/index.js:1266:10)\n    at Mongoose.connect (/home/cmcarlos/Escritorio/proyecto_final/node_modules/mongoose/lib/index.js:412:20)\n    at connectDB (file:///home/cmcarlos/Escritorio/proyecto_final/src/controllersdb.js:5:14)\n    at file:///home/cmcarlos/Escritorio/proyecto_final/src/server.js:73:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)\n    at async Promise.all (index 0)\n    at async ESMLoader.import (node:internal/modules/esm/loader:533:24)"}

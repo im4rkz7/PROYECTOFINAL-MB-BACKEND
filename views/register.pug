@@ -1,0 +1,24 @@
+html(lang='en')
+head
+  meta(charset='utf-8')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge')
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  title Ecommerce 
+  link(rel="stylesheet", href="estilos.css")
+  link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous")
+body
+  h1 Ingresa tus datos para realizar registro
+  
+form(action="/register",method="POST")
+  label(for="nickname" autocomplete="off") Ingresa tu nickname
+  input#nickname(type="text", name="nickname")
+  label(for="email" autocomplete="off") Ingresa tu email
+  input#email(type="email", name="username")
+  label(for="password" autocomplete="off") Ingresa tu password
+  input#password(type="text", name="password")
+  label(for="address" autocomplete="off") Ingresa tu direccion
+  input#direccion(type="text", name="address")
+  label(for="avatar") Selecciona avatar
+  input#avatar(type="file", name="avatar")
+  button(type="submit" value="register") Submit
+  

@@ -1,0 +1,35 @@
+extends ./index
+
+block login
+    h1 Ingresa tus datos para acceder a la pagina
+    form(action="/accesslogin",method="POST", )
+    label(for="email" autocomplete="off") Ingresa tu email
+    input#email(type="email", name="email")
+    label(for="password" autocomplete="off") Ingresa tu password
+    input#password(type="text", name="password")
+    br    
+    button(type="submit") Submit
+
+block register
+    h1 Ingresa tus datos para realizar registro
+    form(action="/register",method="POST")
+    label(for="nickname" autocomplete="off") Ingresa tu nickname
+    input#nickname(type="text", name="nickname")
+    label(for="email" autocomplete="off") Ingresa tu email
+    input#email(type="email", name="email")
+    label(for="password" autocomplete="off") Ingresa tu password
+    input#password(type="text", name="password")
+    label(for="direccion" autocomplete="off") Ingresa tu direccion
+    input#direccion(type="text", name="direccion")
+    br
+    label(for="avatar") Selecciona avatar
+    input#avatar(type="file", name="avatar")
+    br           
+    button(type="submit") Submit
+
+block product
+    h1 Lista de productos
+
+    
+
+  
